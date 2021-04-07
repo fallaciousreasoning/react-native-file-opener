@@ -9,11 +9,12 @@ def computeVersionName() {
 
 buildscript {
     repositories {
+        google()
         jcenter()
     }
 
     dependencies {
-        classpath 'com.android.tools.build:gradle:1.1.3'
+        classpath('com.android.tools.build:gradle:3.5.3')
     }
 }
 
